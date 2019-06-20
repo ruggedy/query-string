@@ -303,7 +303,7 @@ const parseUrl = (input, options) => {
   }
 }
 
-module.exports = {
+export {
   extract,
   parse,
   stringify,
