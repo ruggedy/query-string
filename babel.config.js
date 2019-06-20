@@ -14,7 +14,10 @@ const presets = [
 ]
 
 const plugins = [
-
+  "@babel/plugin-proposal-optional-chaining",
+  "@babel/plugin-proposal-class-properties",
+  "@babel/plugin-syntax-dynamic-import",
+  "@babel/plugin-transform-arrow-functions"
 ]
 
 
