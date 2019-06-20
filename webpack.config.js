@@ -6,6 +6,6 @@ module.exports = {
     filename: 'index.js'
   },
   module: {
-    rules: [{ test: /\.js$/, use: 'babel-loader' }]
+    rules: [{ test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' }]
   }
 }

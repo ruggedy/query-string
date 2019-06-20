@@ -3,7 +3,7 @@ const presets = [
     '@babel/preset-env',
     {
       targets: {
-        ie: '11'
+        ie: 10
       },
       useBuiltIns: 'usage',
       corejs: {
@@ -11,6 +11,10 @@ const presets = [
       }
     }
   ]
+]
+
+const plugins = [
+
 ]
 
 
