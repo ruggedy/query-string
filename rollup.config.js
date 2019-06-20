@@ -32,7 +32,7 @@ export default [
       })
     ],
 		output: [
-			{ name: "index.js", file: 'dist/index.js', format: 'es' }
+			{ name: "index.js", file: 'dist/index.js', format: 'cjs' }
 		]
   },
 ];
